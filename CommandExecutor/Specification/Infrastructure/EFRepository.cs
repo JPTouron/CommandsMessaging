@@ -1,15 +1,12 @@
 ﻿using CommandExecutor.ClientCodeSample;
 using CommandExecutor.Specification.Ports;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CommandExecutor.Specification.Infrastructure
 {
     public class EFRepository : IRepository
     {
-
         public List<User> users;
 
         public EFRepository()
