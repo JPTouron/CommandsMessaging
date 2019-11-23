@@ -1,4 +1,5 @@
 ﻿using CommandExecutor.Functional;
+using CommandExecutor.Guards;
 
 namespace CommandExecutor.ClientCodeSample
 {
@@ -6,6 +7,9 @@ namespace CommandExecutor.ClientCodeSample
     {
         public Result<User> CreateIt(string username, string password)
         {
+            Guard.Against.NullOrWhiteSpace(username, nameof(username));
+            Guard.Against.NullOrWhiteSpace(password, nameof(password));
+
             //create it maybe?
             var usr = new User { password = password, username = username };
             return Result.SuccessWithReturnValue(usr);
@@ -16,6 +20,9 @@ namespace CommandExecutor.ClientCodeSample
     {
         public Result<User> CreateIt(string username, string password)
         {
+            Guard.Against.NullOrWhiteSpace(username, nameof(username));
+            Guard.Against.NullOrWhiteSpace(password, nameof(password));
+
             return Result.FailWithDefaultReturnValue<User>("something went horribly wrong");
         }
     }

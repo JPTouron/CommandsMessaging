@@ -14,7 +14,7 @@ namespace XUnitTestProject1
             var creator = new UserCreatorFail();
             var handler = new CreateUserCommandHandler(creator);
 
-            var cmd = new CreateUserCommand();
+            var cmd = new CreateUserCommand { password = "p", username = "l" };
 
             var result = handler.Handle(cmd);
 
