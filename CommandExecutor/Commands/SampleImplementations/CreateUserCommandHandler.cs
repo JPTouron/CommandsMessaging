@@ -5,20 +5,21 @@ using CommandExecutor.Functional;
 
 namespace CommandExecutor.Commands.SampleImplementations
 {
-    public class CreateUserCommandHandler : ICommandHandler<Result, CreateUserCommand>
+    public class CreateUserCommandHandler : ICommandHandler<Result<User>, CreateUserCommand>
     {
-        private readonly UserCreator dependency;
+        private readonly IUserCreator dependency;
 
-        public CreateUserCommandHandler(UserCreator dependency)
+        public CreateUserCommandHandler(IUserCreator dependency)
         {
             this.dependency = dependency;
         }
 
-        public Result Handle(CreateUserCommand cmd)
+        public Result<User> Handle(CreateUserCommand cmd)
         {
 
-            var result = dependency.CreateItOk(cmd.username, cmd.password);
+            var result = dependency.CreateIt(cmd.username, cmd.password);
             return result;
         }
+
     }
 }
