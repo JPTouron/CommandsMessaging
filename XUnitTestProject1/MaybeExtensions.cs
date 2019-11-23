@@ -1,10 +1,9 @@
-﻿using CommandExecutor;
-using CommandExecutor.Functional;
+﻿using CommandExecutor.Functional;
 
 namespace XUnitTestProject1
 {
     /// <summary>
-    /// this class only within unit tests scope as to ease-in assertions for maybe types and bypass the whole getvalueordefault thingy 
+    /// this class only within unit tests scope as to ease-in assertions for maybe types and bypass the whole getvalueordefault thingy
     /// and replace it with a simpler Value() call
     /// </summary>
     public static class MaybeExtensions
