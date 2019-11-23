@@ -5,7 +5,7 @@ using Xunit;
 
 namespace XUnitTestProject1
 {
-    public class UnitTest1
+    public class MaybeTests
     {
         [Fact]
         public void GetValueFromMaybeUsingTheExtensionInTests()
