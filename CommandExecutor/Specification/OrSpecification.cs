@@ -10,6 +10,7 @@
             this.left = left;
             this.right = right;
         }
+
         public bool IsSatisfiedBy(T value)
         {
             return right.IsSatisfiedBy(value) || left.IsSatisfiedBy(value);

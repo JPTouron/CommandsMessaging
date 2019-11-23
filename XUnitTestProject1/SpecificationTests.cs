@@ -43,6 +43,18 @@ namespace XUnitTestProject1
         }
 
         [Fact]
+        public void NotSpecification_ShouldBeSatisfiedWhenUserNameIsEmpty()
+        {
+            var spec = new UsernameSpecification();
+
+            var not = new NotSpecification<User>(spec);
+
+            var user1 = new User { username = "" };
+
+            not.IsSatisfiedBy(user1).Should().BeTrue();
+        }
+
+        [Fact]
         public void OrSpecification_ShouldBeSatisfiedWhenOneOfTheSpecsIsTrue()
         {
             var spec1 = new UsernameSpecification();
