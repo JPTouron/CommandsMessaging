@@ -1,4 +1,5 @@
 using CommandExecutor;
+using CommandExecutor.Functional;
 using FluentAssertions;
 using System;
 using Xunit;

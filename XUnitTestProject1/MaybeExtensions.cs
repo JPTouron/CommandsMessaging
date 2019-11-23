@@ -1,4 +1,5 @@
 ﻿using CommandExecutor;
+using CommandExecutor.Functional;
 
 namespace XUnitTestProject1
 {

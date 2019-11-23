@@ -1,4 +1,6 @@
-﻿namespace CommandExecutor
+﻿using CommandExecutor.Functional;
+
+namespace CommandExecutor.ClientCodeSample
 {
     public class UserCreator
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CommandExecutor
+namespace CommandExecutor.Guards
 {
     /// <summary>
     /// Simple interface to provide a generic mechanism to build guard clause extension methods from.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommandExecutor
+namespace CommandExecutor.Functional
 {
     public class Result : IEquatable<Result>
     {

@@ -1,4 +1,6 @@
-﻿namespace CommandExecutor
+﻿using CommandExecutor.Commands.BaseStructure;
+
+namespace CommandExecutor.Commands.SampleImplementations
 {
     public class CreateUserCommand : ICommand
     {

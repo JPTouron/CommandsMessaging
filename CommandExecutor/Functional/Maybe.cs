@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommandExecutor
+namespace CommandExecutor.Functional
 {
     public struct Maybe<T> : IEquatable<Maybe<T>>
     {

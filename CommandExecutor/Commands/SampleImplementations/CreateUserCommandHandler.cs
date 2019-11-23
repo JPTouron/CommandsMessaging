@@ -1,4 +1,9 @@
-﻿namespace CommandExecutor
+﻿
+using CommandExecutor.ClientCodeSample;
+using CommandExecutor.Commands.BaseStructure;
+using CommandExecutor.Functional;
+
+namespace CommandExecutor.Commands.SampleImplementations
 {
     public class CreateUserCommandHandler : ICommandHandler<Result, CreateUserCommand>
     {

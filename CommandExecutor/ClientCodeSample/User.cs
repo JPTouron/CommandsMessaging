@@ -1,4 +1,4 @@
-﻿namespace CommandExecutor
+﻿namespace CommandExecutor.ClientCodeSample
 {
 
     public class User

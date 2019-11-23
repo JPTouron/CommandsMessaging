@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CommandExecutor
+namespace CommandExecutor.Guards
 {
     /// <summary>
     /// A collection of common guard clauses, implented as extensions.

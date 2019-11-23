@@ -1,8 +1,7 @@
-﻿namespace CommandExecutor
+﻿using CommandExecutor.Functional;
+
+namespace CommandExecutor.Commands.BaseStructure
 {
-    public interface ICommand
-    {
-    }
 
     public interface ICommandHandler<TResult, TCommand> where TCommand : ICommand where TResult:Result
     {

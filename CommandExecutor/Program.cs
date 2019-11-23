@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CommandExecutor.ClientCodeSample;
+using CommandExecutor.Commands.SampleImplementations;
+using CommandExecutor.Functional;
+using System;
 
 namespace CommandExecutor
 {
