@@ -10,7 +10,6 @@ namespace CommandExecutor.ClientCodeSample
             Guard.Against.NullOrWhiteSpace(username, nameof(username));
             Guard.Against.NullOrWhiteSpace(password, nameof(password));
 
-            //create it maybe?
             var usr = new User { password = password, username = username };
             return Result.SuccessWithReturnValue(usr);
         }
