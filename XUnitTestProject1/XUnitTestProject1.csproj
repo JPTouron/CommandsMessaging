@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommandClassicImplementation\CommandClassicImplementation.csproj" />
     <ProjectReference Include="..\CommandExecutor\CommandExecutor.csproj" />
   </ItemGroup>
 

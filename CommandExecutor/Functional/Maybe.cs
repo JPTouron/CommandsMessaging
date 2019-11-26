@@ -53,7 +53,6 @@ namespace CommandExecutor.Functional
             return maybe.wrappedValue.Equals(value);
         }
 
-
         public static bool operator ==(Maybe<T> first, Maybe<T> second)
         {
             return first.Equals(second);

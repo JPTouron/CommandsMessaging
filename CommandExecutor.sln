@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandExecutor", "CommandExecutor\CommandExecutor.csproj", "{6FA321CF-A5AD-4D9D-930C-5745CA1A2410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandExecutor", "CommandExecutor\CommandExecutor.csproj", "{6FA321CF-A5AD-4D9D-930C-5745CA1A2410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{7FB0EB66-6DB5-432E-B3BC-421B00164D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{7FB0EB66-6DB5-432E-B3BC-421B00164D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandClassicImplementation", "CommandClassicImplementation\CommandClassicImplementation.csproj", "{F47A88B4-448C-4B78-ADD8-7EA6897F57F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7FB0EB66-6DB5-432E-B3BC-421B00164D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB0EB66-6DB5-432E-B3BC-421B00164D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB0EB66-6DB5-432E-B3BC-421B00164D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47A88B4-448C-4B78-ADD8-7EA6897F57F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47A88B4-448C-4B78-ADD8-7EA6897F57F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47A88B4-448C-4B78-ADD8-7EA6897F57F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47A88B4-448C-4B78-ADD8-7EA6897F57F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

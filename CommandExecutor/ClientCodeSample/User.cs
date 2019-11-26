@@ -1,6 +1,5 @@
 ﻿namespace CommandExecutor.ClientCodeSample
 {
-
     public class User
     {
         public string password;
