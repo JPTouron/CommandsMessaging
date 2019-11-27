@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CommandClassicImplementation\CommandClassicImplementation.csproj" />
     <ProjectReference Include="..\CommandExecutor\CommandExecutor.csproj" />
+    <ProjectReference Include="..\SpecificationPattern\SpecificationPattern.csproj" />
   </ItemGroup>
 
 </Project>

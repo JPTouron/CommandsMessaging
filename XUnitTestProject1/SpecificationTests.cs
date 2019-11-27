@@ -1,7 +1,7 @@
 ﻿using CommandExecutor.ClientCodeSample;
-using CommandExecutor.Specification;
-using CommandExecutor.Specification.Infrastructure;
 using FluentAssertions;
+using SpecificationPattern;
+using SpecificationPattern.Infrastructure;
 using Xunit;
 
 namespace XUnitTestProject1

@@ -18,13 +18,18 @@ namespace CommandExecutor.Commands.SampleImplementations
 
         public Result<User> Handle(CreateUserCommand cmd)
         {
-            Guard.Against.Null(cmd, nameof(cmd));
-            Guard.Against.NullOrWhiteSpace(cmd.password, nameof(cmd.password));
-            Guard.Against.NullOrWhiteSpace(cmd.username, nameof(cmd.username));
+            ValidateInvariants(cmd);
 
             var result = dependency.CreateIt(cmd.username, cmd.password);
 
             return result;
+        }
+
+        private static void ValidateInvariants(CreateUserCommand cmd)
+        {
+            Guard.Against.Null(cmd, nameof(cmd));
+            Guard.Against.NullOrWhiteSpace(cmd.password, nameof(cmd.password));
+            Guard.Against.NullOrWhiteSpace(cmd.username, nameof(cmd.username));
         }
     }
 }

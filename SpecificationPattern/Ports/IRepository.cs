@@ -1,4 +1,4 @@
-﻿namespace CommandExecutor.Specification.Ports
+﻿namespace SpecificationPattern.Ports
 {
     public interface IRepository
     {

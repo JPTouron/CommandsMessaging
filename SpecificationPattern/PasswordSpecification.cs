@@ -2,7 +2,7 @@
 using CommandExecutor.Guards;
 using System.Linq;
 
-namespace CommandExecutor.Specification
+namespace SpecificationPattern
 {
     public class PasswordSpecification : ISpecification<User>
     {

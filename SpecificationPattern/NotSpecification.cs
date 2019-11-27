@@ -1,4 +1,4 @@
-﻿namespace CommandExecutor.Specification
+﻿namespace SpecificationPattern
 {
     public class NotSpecification<T> : ISpecification<T>
     {

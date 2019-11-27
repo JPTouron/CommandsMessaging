@@ -1,9 +1,9 @@
 ﻿using CommandExecutor.ClientCodeSample;
-using CommandExecutor.Specification.Ports;
+using SpecificationPattern.Ports;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CommandExecutor.Specification.Infrastructure
+namespace SpecificationPattern.Infrastructure
 {
     public class EFRepository : IRepository
     {

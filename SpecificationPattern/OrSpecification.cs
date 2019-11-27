@@ -1,4 +1,4 @@
-﻿namespace CommandExecutor.Specification
+﻿namespace SpecificationPattern
 {
     public class OrSpecification<T> : ISpecification<T>
     {

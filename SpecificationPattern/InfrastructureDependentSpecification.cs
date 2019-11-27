@@ -1,7 +1,7 @@
 ﻿using CommandExecutor.ClientCodeSample;
-using CommandExecutor.Specification.Ports;
+using SpecificationPattern.Ports;
 
-namespace CommandExecutor.Specification
+namespace SpecificationPattern
 {
     public class InfrastructureDependentSpecification : ISpecification<User>
     {

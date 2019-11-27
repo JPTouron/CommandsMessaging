@@ -19,14 +19,15 @@ namespace CommandExecutor
 
         private static CreateUserCommandHandler GetHandler()
         {
-            return new CreateUserCommandHandler(new UserCreatorOk());
+            var dependency = new UserCreatorOk();
+            return new CreateUserCommandHandler(dependency);
         }
 
         private static void Main(string[] args)
         {
             Result user = CommandDemo();
 
-            Console.WriteLine($"User Created {user} ");
+            Console.WriteLine($"User Created Succesfully: {user.IsSuccess} ");
         }
     }
 }

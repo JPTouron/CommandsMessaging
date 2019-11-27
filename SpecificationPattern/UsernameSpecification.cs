@@ -1,6 +1,6 @@
 ﻿using CommandExecutor.ClientCodeSample;
 
-namespace CommandExecutor.Specification
+namespace SpecificationPattern
 {
     public class UsernameSpecification : ISpecification<User>
     {
